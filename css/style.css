@@ -1,0 +1,279 @@
+/* Basic */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+html {
+    background: #ffffff;
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 160%;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+h1, h2, h3 {
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.2s all;
+}
+
+a:hover {
+    color: #E58311;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1530px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+}
+
+.button {
+    padding: 18px 50px;
+    border: 2px solid #000000;
+    font-family: 'Kodchasan';
+    font-size: 18px;
+    font-weight: 700;
+    background: none;
+    margin-top: 90px;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+/* Navigation */
+.navigation__box {
+    margin-top: 29px;
+}
+
+.navigation__list {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.navigation__item {
+    font-size: 18px;
+    margin-left: 42px;
+    font-weight: 500;
+}
+
+.active {
+    font-weight: 700;
+}
+
+/* Main */
+.main {
+    margin-top: 65px;
+    background-image: url('../img/main/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main__box {
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    min-height: 865px;
+    position: relative;
+}
+
+.main__title {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 130px;
+    max-width: 670px;
+    margin-top: 128px;
+    margin-left: 78px;
+}
+
+.button--first {
+    margin-left: 78px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.button--first:hover {
+    background: none;
+    color: #000000;
+}
+
+.button--second {
+    margin-left: 30px;
+}
+
+.button--second:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.main__bee-img {
+    width: 686.83px;
+    height: 650px;
+    margin-top: 90px;
+}
+
+/* Partners */
+.partners__title {
+    margin-top: 96px;
+    margin-left: 177px;
+}
+
+.partners__list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 177px 0 177px;
+}
+
+/* About */
+.about {
+    margin-top: 130px;
+}
+
+.about__second-card {
+    margin-top: 100px;
+}
+
+.about__title {
+    font-size: 45px;
+    line-height: 145%;
+}
+
+.about__descr {
+    margin-top: 50px;
+}
+
+.button__about {
+    background-color: #E58311;
+    color: #ffffff;
+    border: #E58311;
+    margin-top: 50px;
+}
+
+.button__about:hover {
+    background-color: #8f510a;
+    color: #ffffff;
+}
+
+/* Product */
+.product__title {
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 160%;
+}
+
+.product__link {
+    position: absolute;
+    text-decoration: underline;
+    color: #E58211;
+    font-weight: 700;
+    font-size: 18px;
+    right: 192px;
+}
+
+.product__link:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.product__box {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.product__card {
+    width: 558px;
+    background: rgba(229, 130, 17, 0.07);
+    padding-left: 30px;
+    padding-top: 29px;
+    padding-bottom: 28px;
+}
+
+.product__card--first {
+    margin-right: 30px;
+}
+
+.product__card--first .product__descr {
+    width: 293px;
+}
+
+.product__card--second .product__img {
+    margin-right: 40px;
+}
+
+.product__subtitle {
+    margin-top: 16px;
+    font-size: 28px;
+    line-height: 140%;
+}
+
+.product__descr {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 160%;
+    width: 310px;
+}
+
+.button__product {
+    margin-top: 30px;
+    padding: 10px 30px;
+    color: #E58211;
+    border: 2px solid #E58211;
+}
+
+.button__product:hover {
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+/* Footer */
+.footer {
+    padding: 48px 0;
+    margin-top: 130px;
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+}
+
+.footer__box {
+    padding: 0 192px;
+}
+
+.footer__descr {
+    width: 270px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+}
+
+.footer__list {
+    display: flex;
+}
+
+.footer__item {
+    margin-right: 40px;
+}
+
+.footer__item--last {
+    margin-right: 0px;
+}
+
+.footer__item--store {
+    margin-right: 20px;
+}
